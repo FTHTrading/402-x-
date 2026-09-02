@@ -1,0 +1,26 @@
+{
+  "operator": "UnyKorn LLC",
+  "jurisdiction": "Wyoming",
+  "updated": "2026-09-02",
+  "disclaimer": "Software and ops services only. Not brokerage, not an offer of securities.",
+  "settlement": {
+    "humans": "Stripe Payment Links (account blockchainfraud.org)",
+    "agents": "x402 USDC — Solana primary (x402.unykorn.org), Polygon 137 for Genesis demo",
+    "custody": "BitGo Bank & Trust holds keys. Paxos for PYUSD/PAXG convert. itBit for trading liquidity.",
+    "pay_to_status": "PLACEHOLDER — drop BitGo receive addresses into wrangler secrets before production settle"
+  },
+  "skus": [
+    {"sku": "operator_docs", "name": "Operator Docs", "human_usd": 99, "agent_usd": 99, "stripe": "https://buy.stripe.com/14AfZi1uN44y6wA9PkfIs00", "x402_path": "/v1/sku/operator_docs", "rail": "both"},
+    {"sku": "deal_playbook", "name": "Deal Playbook pack", "human_usd": 249, "agent_usd": 249, "stripe": "https://buy.stripe.com/aFafZi4GZ9oSbQU9PkfIs01", "x402_path": "/v1/sku/deal_playbook", "rail": "both"},
+    {"sku": "rwa_family_setup", "name": "RWA family setup", "human_usd": 1500, "agent_usd": 1500, "stripe": "https://buy.stripe.com/7sY7sM5L358C6wA5z4fIs02", "x402_path": "/v1/sku/rwa_family_setup", "rail": "both"},
+    {"sku": "dao_concierge", "name": "DAO deploy concierge", "human_usd": 750, "agent_usd": 750, "stripe": "https://buy.stripe.com/bJe3cw4GZgRkaMQ8LgfIs04", "x402_path": "/v1/sku/dao_concierge", "rail": "both"},
+    {"sku": "bitgo_onboarding", "name": "BitGo deal-ops onboarding", "human_usd": 2500, "agent_usd": 2500, "stripe": "https://buy.stripe.com/aFa5kE5L38kO8EI0eKfIs03", "x402_path": "/v1/sku/bitgo_onboarding", "rail": "both"},
+    {"sku": "gmiiie_snapshot", "name": "GMIIE macro snapshot", "human_usd": 0, "agent_usd": 0.1, "stripe": null, "x402_path": "/v1/gmiiie/snapshot", "rail": "x402"},
+    {"sku": "gmiiie_ring", "name": "GMIIE ring pack", "human_usd": 25, "agent_usd": 1.0, "stripe": null, "x402_path": "/v1/gmiiie/ring", "rail": "x402"},
+    {"sku": "mcp_tool_paid", "name": "Paid MCP tool call", "human_usd": 0, "agent_usd": 0.05, "stripe": null, "x402_path": "/v1/mcp/tool", "rail": "x402"},
+    {"sku": "mint_intake", "name": "Mint order intake", "human_usd": 25, "agent_usd": 5.0, "stripe": null, "x402_path": "/v1/mint/intake", "rail": "x402"},
+    {"sku": "proof_pack", "name": "IPFS / audit proof pack", "human_usd": 49, "agent_usd": 25.0, "stripe": null, "x402_path": "/v1/vault/proof", "rail": "x402"},
+    {"sku": "crawl_page", "name": "Pay-per-crawl page", "human_usd": 0, "agent_usd": 0.02, "stripe": null, "x402_path": "*", "rail": "cloudflare-crawl"},
+    {"sku": "wl_edge_pack", "name": "White-label x402 Edge Pack setup", "human_usd": 7500, "agent_usd": 7500, "stripe": null, "x402_path": "/v1/sku/wl_edge_pack", "rail": "stripe-first", "monthly_usd": 750}
+  ]
+}
