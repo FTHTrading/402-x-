@@ -1,0 +1,22 @@
+# 402-x — Genesis402 / Unykorn x402 operator map
+
+Status legend: LIVE STUB TBD UNAUDITED MISSING GATED
+
+Live:
+- https://genesis402.com/ empire OS (former /legacy)
+- https://genesis402.com/console operator console
+- https://dev.genesis402.com/ Docs OS
+- https://smartcontract.unykorn.ai/ RWA GitHub Pages
+- https://genesis-docs-mcp.kevanbtc.workers.dev/mcp
+- https://x402.unykorn.org/ Solana HTTP 402
+- https://brokerdealer.unykorn.org/
+- https://mint.unykorn.org/
+
+Honesty:
+- Apostle 7332 STUB
+- Unykorn L1 7331 public RPC TBD
+- DAO addresses TBD
+- Contracts UNAUDITED
+- FTHTrading/unykorn-studio 404 (Studio is local :3200)
+- Cantor Fitzgerald CRE != Canton Network
+- Paxos PAXG-shape only; Unykorn does not issue PAXG
