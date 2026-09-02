@@ -1,0 +1,13 @@
+{
+  "name": "unykorn-x402-catalog",
+  "private": true,
+  "version": "0.1.0",
+  "description": "UnyKorn LLC x402 catalog + 402 gate. Brand: UnyKorn LLC only.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.28.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "unykorn-x402-catalog",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-02",
+  "workers_dev": true,
+  "vars": {
+    "OPERATOR": "UnyKorn LLC",
+    "NETWORK_SOLANA": "solana",
+    "NETWORK_POLYGON": "polygon",
+    "FACILITATOR_URL": "https://x402.org/facilitator",
+    "CATALOG_URL": "https://x402.unykorn.org",
+    "STRIPE_SUCCESS": "https://dev.genesis402.com/commerce/success/",
+    "PAY_TO_SOLANA": "REPLACE_WITH_BITGO_SOLANA_USDC_RECEIVE",
+    "PAY_TO_POLYGON": "REPLACE_WITH_BITGO_POLYGON_USDC_RECEIVE",
+    "USDC_SOLANA": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "USDC_POLYGON": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+  }
+}
