@@ -2,16 +2,20 @@
 
 # Sources
 
-| Surface | Hosting | Source |
-| --- | --- | --- |
-| genesis402.com | Cloudflare Pages `genesis402` | `C:\\Users\\Kevan\\UnyKorn-X402-aws\\packages\\fth-x402-site` |
-| genesis402.com/console | same | `public/console.html` (former apex) |
-| genesis402.com/legacy | same | `public/legacy.html` (now also apex `index.html`) |
-| dev.genesis402.com | Cloudflare Pages `dev-portal-unykorn` | `C:\\Users\\Kevan\\dev\\genesis-docs-os` |
-| smartcontract.unykorn.ai | GitHub Pages | [FTHTrading/smart-contract-builder](https://github.com/FTHTrading/smart-contract-builder) `docs/` |
-| MCP worker | Workers `genesis-docs-mcp` | `genesis-docs-os/apps/mcp` |
-| DAO contracts | local | `C:\\Users\\Kevan\\projects\\unykorn-dao` |
-| Studio | local Next.js :3200 | `C:\\Users\\Kevan\\dev\\platforms\\unykorn-studio` — public GitHub 404 |
-| Mint | Vercel | `C:\\Users\\Kevan\\projects\\unykorn-system-mint` |
+Public hosting only. Operator workstations are not documented here.
 
-Do not copy BitGo operating IDs, wallets, or tickets into this public repo.
+| Surface | Hosting |
+| --- | --- |
+| [genesis402.com](https://genesis402.com/) | Cloudflare Pages project `genesis402` (empire OS apex) |
+| [genesis402.com/console](https://genesis402.com/console) | Same project — former apex operator console |
+| [genesis402.com/legacy](https://genesis402.com/legacy) | Same empire page as apex |
+| [dev.genesis402.com](https://dev.genesis402.com/) | Cloudflare Pages `dev-portal-unykorn` |
+| [smartcontract.unykorn.ai](https://smartcontract.unykorn.ai/) | GitHub Pages from [FTHTrading/smart-contract-builder](https://github.com/FTHTrading/smart-contract-builder) |
+| [MCP worker](https://genesis-docs-mcp.kevanbtc.workers.dev/health) | Cloudflare Worker `genesis-docs-mcp` |
+| DAO | Local Foundry tree — addresses TBD, not published |
+| Studio | Local Next.js `:3200` — public `FTHTrading/unykorn-studio` is 404 |
+| Mint | [mint.unykorn.org](https://mint.unykorn.org/) |
+
+Related public repo: [FTHTrading/smart-contract-builder](https://github.com/FTHTrading/smart-contract-builder).
+
+Do not publish BitGo operating IDs, wallets, tickets, or Stripe secrets.

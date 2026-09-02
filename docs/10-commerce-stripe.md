@@ -29,8 +29,13 @@ Body:
 { "sku": "operator_docs" }
 ```
 
-**When configured:** creates a Stripe Checkout Session and returns `{ id, url, sku }`.  
-**When not configured:** HTTP 503 JSON, for example:
+Live mode returns a Payment Link:
+
+```json
+{ "id": null, "url": "https://buy.stripe.com/...", "sku": "operator_docs", "mode": "payment_link" }
+```
+
+Session-based checkout (secret key) is optional. If neither a Payment Link var nor `STRIPE_SECRET_KEY` is set, the worker returns 503 JSON:
 
 ```json
 {

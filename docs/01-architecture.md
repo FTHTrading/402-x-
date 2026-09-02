@@ -19,7 +19,8 @@ Genesis Docs OS is the single operator documentation location for the Unykorn ca
 
 | System | Status | URL / note |
 | --- | --- | --- |
-| Genesis402 console | LIVE | https://genesis402.com — operator console |
+| Genesis402 empire OS | LIVE | https://genesis402.com — former `/legacy` page is now the apex |
+| Genesis402 operator console | LIVE | https://genesis402.com/console |
 | x402 Solana Worker rail | LIVE | https://x402.unykorn.org — Solana HTTP 402 |
 | Genesis Docs OS (this portal) | LIVE | https://dev.genesis402.com — Cloudflare Pages `dev-portal-unykorn` (also `dev-portal-unykorn.pages.dev`, `dev.donkai.org`) |
 | Smart Contract Builder docs | LIVE | https://smartcontract.unykorn.ai — **GitHub Pages** from `smart-contract-builder/docs` (workflow `pages.yml` on main); also `fthtrading.github.io/smart-contract-builder`. Not Cloudflare Pages. |
@@ -31,7 +32,7 @@ Genesis Docs OS is the single operator documentation location for the Unykorn ca
 | DAO contract addresses | TBD | GovToken / Timelock / DAO — deploy via Remix or Foundry |
 | Unykorn Studio | MISSING | Local/operator Next.js console on :3200. Public `github.com/FTHTrading/unykorn-studio` is **404**. Do not invent a repo. Studio drives contracts; keys via BitGo `sign_external`. |
 | RWA Solidity library | UNAUDITED | https://github.com/FTHTrading/smart-contract-builder — 0.8.24 / paris / optimizer 200 / MIT |
-| Stripe commerce API | GATED | `POST /api/checkout` returns actionable 503 JSON until `STRIPE_SECRET_KEY` + `PRICE_*` set |
+| Stripe commerce | LIVE links | Card Payment Links; `POST /api/checkout` returns `{ url }`. Software/ops only. |
 
 ## Merged sources
 
